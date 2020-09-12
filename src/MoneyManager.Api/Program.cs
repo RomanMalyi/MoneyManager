@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
 
-namespace MoneyManager
+namespace MoneyManager.Api
 {
     public class Program
     {

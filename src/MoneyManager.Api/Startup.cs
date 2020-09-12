@@ -4,7 +4,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
-namespace MoneyManager
+namespace MoneyManager.Api
 {
     public class Startup
     {
@@ -30,7 +30,7 @@ namespace MoneyManager
             app.UseSwagger();
             app.UseSwaggerUI(c =>
             {
-                c.SwaggerEndpoint("/swagger/v1/swagger.json", "MoneyManager V1");
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "MoneyManager.Api V1");
             });
 
             app.UseRouting();

@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace MoneyManager.Controllers
+namespace MoneyManager.Api.Controllers
 {
     [ApiController]
     [Route("api/users")]
